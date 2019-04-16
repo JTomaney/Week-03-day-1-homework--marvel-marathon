@@ -50,5 +50,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '22:10');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:00');
 
-UPDATE movies SET show_time = '20:45' WHERE id = 7;
+DELETE FROM movies WHERE id IN (7, 8);
 SELECT * FROM movies;

@@ -167,7 +167,7 @@ Apu Nahasapeemapetilon
 (15 rows)
 
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
-INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infifnity War', 2018, '24:00');
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infifnity War', 2018, '00:00');
 id |                title                | year | show_time
 ----+-------------------------------------+------+-----------
   1 | Iron Man                            | 2008 | 17:00
